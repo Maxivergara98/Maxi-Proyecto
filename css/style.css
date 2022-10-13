@@ -40,7 +40,7 @@ header nav ul li {
     display: inline-block;
     transition: 5s;
     padding: 0.5px;
-    transition: 2s;
+    transition: 0.5s;
 
 }
 
@@ -48,7 +48,14 @@ header nav ul li:hover{
     background-color: yellow;
 }
 
+.acercade{
+    background-color: gray;
 
+}
+
+.verproductos{
+    background-color: grey;
+}
 .grid-contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -135,11 +142,17 @@ header nav ul li:hover{
 
 }
 
+.cartaProductos a{
+    margin: 2px 90px 2px 90px;
+}
+
+.cartaProductos a:hover{
+    color: yellow;
+}
 
 
 
-
-.hero {
+/*.hero {
     background-image: url(../img/pexels-cottonbro-6110079.jpg);
     height: 80vh;
     width: 100%;
@@ -148,7 +161,7 @@ header nav ul li:hover{
     background-size: cover;
 
 
-}
+}*/
 
 .hero h2 {
     color: yellow;
@@ -228,18 +241,29 @@ main{
 
 
 
-footer {
+
+#Piedepagin{
+    height: 40px;
+    width: 40px;
     display: flex;
     justify-content: center;
-    grid-area: footer;
-
-
 }
 
-footer a img {
+footer img {
     width: 50px;
     height: 50px;
     padding: 3px;
+    display: flex;
+    
+    
+}
+
+footer{
+    display: flex;
+    justify-content: end;
+    flex-direction: column-reverse;
+    
+    
 }
 
 @media screen and (max-width:1139px) {
