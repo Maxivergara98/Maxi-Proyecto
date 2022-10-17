@@ -56,7 +56,7 @@ header nav ul li:hover{
 .verproductos{
     background-color: grey;
 }
-.grid-contenedor {
+/**.grid-contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100px auto 150px;
@@ -65,7 +65,7 @@ header nav ul li:hover{
         "header header"
         "main main"
         "footer footer"
-}
+}**/
 
 .nuestrasMarcas {
     display: flex;
@@ -75,8 +75,8 @@ header nav ul li:hover{
 }
 
 .nuestrasMarcas img {
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
 }
 
 .nuestras h2 {
@@ -141,6 +141,7 @@ header nav ul li:hover{
     -moz-box-shadow: 10px 7px 41px 3px rgba(0, 0, 0, 0.75);
 
 }
+
 
 .cartaProductos a{
     margin: 2px 90px 2px 90px;
@@ -239,14 +240,46 @@ main{
 }
 
 
-
-
-
-#Piedepagin{
-    height: 40px;
-    width: 40px;
+.soporte{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin bottom: 50px;
+    
+    
+}
+
+.mb-3{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.avisoLegal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-bottom: 2px
+    
+}
+
+#Piedepagina{
+    display: flex;
+    justify-content:space-evenly;
+    background-color: black;
+    color: white;
+    margin-bottom: 50px;
+    
+    
+}
+
+.redes{
+    display: flex;
+    flex-direction: center;
 }
 
 footer img {
@@ -258,13 +291,20 @@ footer img {
     
 }
 
-footer{
+.soporte{
     display: flex;
-    justify-content: end;
-    flex-direction: column-reverse;
-    
-    
+    justify-content: space-evenly;
 }
+
+.avisoLegal{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    width: 100%;
+}
+
 
 @media screen and (max-width:1139px) {
     .acercade {
