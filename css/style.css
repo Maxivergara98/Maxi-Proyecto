@@ -255,8 +255,21 @@ main{
     display: flex;
     text-align: center;
     justify-content: space-between;
+    margin: 6px;
 }
 
+section h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4px;
+}
 .avisoLegal{
     display: flex;
     justify-content: center;
