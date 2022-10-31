@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header nav ul, .cartaProductos, .acercade, footer, footer .soporte {
+  display: flex;
+  justify-content: space-evenly; }
+
+header nav ul, .cartaProductos, .acercade, footer, footer .soporte {
+  display: flex;
+  justify-content: space-evenly; }
+
+header {
+  background-color: black;
+  color: yellow; }
+  header .titulocompleto {
+    display: flex;
+    justify-content: space-between; }
+  header .fotocarrito {
+    width: 50px;
+    height: 50px;
+    margin: 10px; }
+  header h1 {
+    color: yellow;
+    font-size: 45px;
+    font-style: italic;
+    font-weight: 200; }
+  header nav ul {
+    list-style: none;
+    padding: 10px;
+    margin: 0px; }
+    header nav ul li {
+      display: inline-block;
+      transition: 5s;
+      padding: 0.5px;
+      transition: 0.5s; }
+      header nav ul li:hover {
+        background-color: yellow; }
+      header nav ul li a {
+        text-decoration: none;
+        color: white;
+        display: inline-block; }
+
+.verproductos {
+  background-color: grey; }
+
+.hero {
+  text-align: center; }
+  .hero .imagencarusel {
+    height: 80vh;
+    width: 100%; }
+  .hero a {
+    background-color: black;
+    color: yellow; }
+  .hero p {
+    color: yellowgreen; }
+  .hero h2 {
+    color: yellow;
+    text-decoration: underline;
+    background-color: grey; }
+
+.nuestrasMarcas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .nuestrasMarcas h2 {
+    text-align: center; }
+  .nuestrasMarcas img {
+    width: 80px;
+    height: 80px; }
+
+.nuestras h2 {
+  text-align: center; }
+
+.Contacto a {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 4px;
+  font-size: 30px;
+  color: black; }
+
+/*Servicios*/
+.servicios img {
+  width: 100%; }
+
+.servicios h3 {
+  padding: 15px; }
+
+/*productos*/
+.tituloproducto {
+  text-align: center;
+  margin-top: 10px; }
+
+.productos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .productos img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px 20px;
+    flex-wrap: wrap; }
+  .productos div {
+    transition: 2s; }
+    .productos div:hover {
+      transform: scale(1.1); }
+    .productos div a {
+      text-decoration: none;
+      background-color: black;
+      color: white;
+      padding: 5px 10px 5px 10px; }
+
+.cartaProductos {
+  flex-direction: column;
+  text-align: center;
+  margin: 70px;
+  border: 1px solid black;
+  height: 380px;
+  border-radius: 20px;
+  box-shadow: 10px 7px 41px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 7px 41px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 7px 41px 3px rgba(0, 0, 0, 0.75); }
+  .cartaProductos a {
+    margin: 2px 90px 2px 90px; }
+    .cartaProductos a:hover {
+      color: yellow; }
+
+/*Acerca de Nosotros*/
+.acercade {
+  background-color: gray; }
+  .acercade div {
+    width: 50%; }
+    .acercade div h1 {
+      color: yellow;
+      text-decoration: underline;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      font-size: 50px; }
+  .acercade img {
+    width: 300px;
+    height: 300px;
+    margin-top: 30px; }
+
+/*Contacto*/
+.Form {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  text-align: center;
+  background-color: grey; }
+  .Form form {
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: center;
+    background-color: white;
+    margin: 40px 0px; }
+  .Form h1 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px; }
+  .Form .mb-3 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 2px; }
+  .Form iframe {
+    width: 60%; }
+
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  height: auto; }
+  footer .soporte {
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    text-decoration: underline; }
+    footer .soporte a {
+      color: white;
+      padding: 5px; }
+  footer .avisoLegal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    text-decoration: underline; }
+    footer .avisoLegal a {
+      color: white;
+      padding: 5px; }
+  footer .redes {
+    display: flex;
+    flex-direction: center; }
+  footer img {
+    width: 50px;
+    height: 50px;
+    padding: 3px;
+    display: flex;
+    margin-top: 50px; }
+
+@media screen and (max-width: 1139px) {
+  .acercade {
+    flex-direction: column;
+    align-items: center; } }
+
+@media screen and (max-width: 429px) {
+  header nav ul {
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+    align-content: center; } }
+
+@media screen and (max-width: 802px) {
+  .Form {
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+    align-items: center; } }
+
+@media screen and (max-width: 500px) {
+  #Piedepagina {
+    flex-direction: column;
+    align-items: center; } }

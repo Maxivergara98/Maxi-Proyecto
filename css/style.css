@@ -1,15 +1,15 @@
 /**/
 
-* {
+/* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
-}
+}*/
 
 
 
-header nav ul {
+/*header nav ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
@@ -45,17 +45,17 @@ header nav ul li {
 }
 
 header nav ul li:hover{
-    background-color: yellow;
-}
+    background-color: yellow; 
+}*/
 
-.acercade{
+/*.acercade{
     background-color: gray;
 
-}
+}*/
 
-.verproductos{
-    background-color: grey;
-}
+/*.verproductos{
+    background-color: grey;*/
+
 /**.grid-contenedor {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -67,47 +67,49 @@ header nav ul li:hover{
         "footer footer"
 }**/
 
-.nuestrasMarcas {
+/*.nuestrasMarcas {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-}
+}*/
 
-.nuestrasMarcas img {
+/*.nuestrasMarcas img {
     width: 80px;
     height: 80px;
-}
+}*/
 
-.nuestras h2 {
+/*.nuestras h2 {
     text-align: center;
 
-}
+}*/
 
-.Contacto h2 {
+/*.
+
+h2 {
     text-align: center;
     margin-bottom: 4px;
-}
+}*/
 
 
 
-.productos {
+/*.productos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     
-}
+}*/
 
 
-.productos img {
+/*.productos img {
     width: 250px;
     height: 250px;
     border-radius: 20px 20px;
     flex-wrap: wrap;
 
-}
+}*/
 
-.productos div{
+/*.productos div{
     transition: 2s;
 }
 
@@ -120,14 +122,14 @@ header nav ul li:hover{
     background-color: black;
     color: white;
     padding: 5px 10px 5px 10px;
-}
+}*/
 
-.tituloproducto {
+/*.tituloproducto {
     text-align: center;
     margin-top: 10px;
-}
+}*/
 
-.cartaProductos {
+/*.cartaProductos {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -149,7 +151,7 @@ header nav ul li:hover{
 
 .cartaProductos a:hover{
     color: yellow;
-}
+}*/
 
 
 
@@ -164,7 +166,7 @@ header nav ul li:hover{
 
 }*/
 
-.hero h2 {
+/*.hero h2 {
     color: yellow;
     text-decoration: underline;
     background-color: grey;
@@ -184,99 +186,101 @@ header nav ul li:hover{
 
 .hero {
     text-align: center;
-}
+}*/
 
 
-.galeria div img {
+/* .galeria div img {
     width: 400px;
     height: 400px;
     margin: 80px;
-}
+} */
 
-.Form {
+/*.Form {
     display: flex;
     justify-content: center;
     text-align: center;
     margin-top: 5px;
 
-}
+}*/
 
-.acercade div h1 {
+/*.acercade div h1 {
     color: yellow;
     text-decoration: underline;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
     font-size: 50px;
-}
+}*/
 
-.acercade {
+/*.acercade {
     display: flex;
     justify-content: space-evenly;
 
-}
+}*/
 
-.acercade div {
+/*.acercade div {
     width: 50%;
-}
+}*/
 
-.acercade img {
+/*.acercade img {
     width: 300px;
     height: 300px;
     margin-top: 30px;
-}
+}*/
 
-main{
+/* main{
     grid-area: main;
 }
+ */
 
-
-.servicios img {
+/*.servicios img {
     width: 100%;
 }
 
 .servicios h3 {
     padding: 15px;
-}
+}*/
 
 
-.soporte{
+/*.soporte{
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     color: white;
-    margin bottom: 50px;
+    margin-bottom: 50px;
     
     
-}
+}*/
 
-.mb-3{
+/*.mb-3{
     display: flex;
     text-align: center;
     justify-content: space-between;
     margin: 6px;
-}
+}*/
 
-section h1{
+/*section h1{
     display: flex;
     justify-content: center;
     text-align: center;
     margin-bottom: 20px;
-}
-.form{
+}*/
+/*.form{
     display: flex;
     justify-content: center;
     text-align: center;
     margin-bottom: 4px;
-}
-.avisoLegal{
+}*/
+/*.avisoLegal{
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     color: white;
-    margin-bottom: 2px
+    margin-bottom: 2px;
+    display: flex;
+    justify-content: space-evenly;
     
 }
 
@@ -307,19 +311,16 @@ footer img {
 .soporte{
     display: flex;
     justify-content: space-evenly;
+    
 }
 
-.avisoLegal{
-    display: flex;
-    justify-content: space-evenly;
-}
 
 footer{
     width: 100%;
-}
+}*/
 
 
-@media screen and (max-width:1139px) {
+/* @media screen and (max-width:1139px) {
     .acercade {
         flex-direction: column;
 
@@ -336,4 +337,5 @@ footer{
         text-align: center;
         align-content: center;
     }
-}
+} */
+

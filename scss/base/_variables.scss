@@ -1,0 +1,38 @@
+$color-principal: blue;
+
+%flextodos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@mixin mediaquerie($pantalla) {
+    @if $pantalla==computadora {
+        @media screen and (max-width:1139px) {
+            @content;
+        }
+    }
+
+    ;
+
+    @if $pantalla==celular {
+        @media screen and (max-width:429px) {
+            @content;
+        }
+    }
+
+    ;
+
+    @if $pantalla==formulario {
+        @media screen and (max-width:802px) {
+            @content;
+        }
+
+    }
+
+    @if $pantalla==footer {
+        @media screen and (max-width:500px) {
+            @content;
+
+        }
+    }
+}

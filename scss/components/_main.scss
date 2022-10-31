@@ -1,0 +1,204 @@
+.verproductos {
+    background-color: grey;
+
+
+}
+
+.hero {
+    text-align: center;
+
+   .imagencarusel{
+    height: 80vh;
+    width: 100%;
+   }
+    a {
+        background-color: black;
+        color: yellow;
+    }
+
+    p {
+        color: yellowgreen;
+
+    }
+
+    h2 {
+        color: yellow;
+        text-decoration: underline;
+        background-color: grey;
+    }
+}
+
+
+.nuestrasMarcas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    h2 {
+        text-align: center;
+    }
+
+    img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.nuestras {
+    h2 {
+        text-align: center;
+    }
+}
+
+.Contacto {
+    a{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 4px;
+        font-size: 30px;
+        color: black;
+    }
+}
+
+/*Servicios*/
+
+.servicios {
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        padding: 15px;
+    }
+
+}
+
+/*productos*/
+
+.tituloproducto {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.productos {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+
+    img {
+        width: 250px;
+        height: 250px;
+        border-radius: 20px 20px;
+        flex-wrap: wrap;
+
+    }
+
+    div {
+        transition: 2s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        a {
+            text-decoration: none;
+            background-color: black;
+            color: white;
+            padding: 5px 10px 5px 10px;
+        }
+    }
+
+
+}
+
+.cartaProductos {
+    @extend %flextodos;
+    flex-direction: column;
+    text-align: center;
+    margin: 70px;
+    border: 1px solid black;
+    height: 380px;
+    border-radius: 20px;
+    box-shadow: 10px 7px 41px 3px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 7px 41px 3px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 7px 41px 3px rgba(0, 0, 0, 0.75);
+
+    a {
+        margin: 2px 90px 2px 90px;
+
+        &:hover {
+            color: yellow;
+        }
+    }
+
+}
+
+/*Acerca de Nosotros*/
+
+.acercade {
+    @extend %flextodos;
+    background-color: gray;
+    div {
+        width: 50%;
+        h1 {
+            color: yellow;
+            text-decoration: underline;
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            font-size: 50px;
+        }
+    }
+    img {
+        width: 300px;
+        height: 300px;
+        margin-top: 30px;
+    }
+}
+
+/*Contacto*/
+
+
+.Form {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+
+    
+    
+    form{
+        
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        width: 300px;
+        justify-content: center;
+        background-color: white;
+        margin: 40px 0px;
+        
+    
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .mb-3{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        margin: 2px;
+    }
+    iframe{
+        width: 60%;
+    }
+}
