@@ -4,27 +4,37 @@ footer {
         background-color: black;
         color: white;
         height: auto;
-        
+
 
 
         .soporte {
-                
+
                 flex-direction: column;
                 text-align: center;
                 color: white;
                 padding: 20px;
                 text-decoration: underline;
                 @extend %flextodos;
-                
-                a{
-                        
+                /* transition: 0.5s;
+
+                &:hover{
+                        color: yellow;
+                } */
+
+
+                a {
+
                         color: white;
                         padding: 5px;
-                }
-                
-                
+                        transition: 0.2s;
 
-              
+                        &:hover {
+                                color: yellow;
+                        }
+                }
+
+
+
 
         }
 
@@ -36,12 +46,20 @@ footer {
                 color: white;
                 padding: 20px;
                 text-decoration: underline;
-                
-                a{
-                        
-                        color: white;    
-                        padding: 5px;            }
-                
+                transition: 0.2s;
+
+
+                a {
+
+                        color: white;
+                        padding: 5px;
+                        transition: 0.2s;
+
+                        &:hover {
+                                color: yellow;
+                        }
+                }
+
         }
 
         .redes {

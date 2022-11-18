@@ -54,7 +54,8 @@ header {
     background-color: black;
     color: yellow; }
   .hero p {
-    color: yellowgreen; }
+    color: yellowgreen;
+    margin-bottom: auto; }
   .hero h2 {
     color: yellow;
     text-decoration: underline;
@@ -64,35 +65,49 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around; }
+  justify-content: space-around;
+  margin: auto; }
   .nuestrasMarcas h2 {
     text-align: center; }
   .nuestrasMarcas img {
     width: 80px;
     height: 80px; }
 
-.nuestras h2 {
-  text-align: center; }
+.nuestras {
+  background-color: grey; }
+  .nuestras h2 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #c0c01d; }
 
-.Contacto a {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  margin-bottom: 4px;
-  font-size: 30px;
-  color: black; }
+.Contacto {
+  background-color: grey; }
+  .Contacto a {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 4px;
+    font-size: 30px;
+    color: black; }
+  .Contacto p {
+    text-align: center;
+    margin-bottom: auto; }
 
 /*Servicios*/
-.servicios img {
-  width: 100%; }
-
-.servicios h3 {
-  padding: 15px; }
+.servicios {
+  background-color: grey; }
+  .servicios img {
+    width: 100%; }
+  .servicios h3 {
+    padding: 15px; }
 
 /*productos*/
 .tituloproducto {
   text-align: center;
-  margin-top: 10px; }
+  border: 2px solid black;
+  width: 200px;
+  margin: auto;
+  margin-top: 40px; }
 
 .productos {
   display: flex;
@@ -143,7 +158,8 @@ header {
   .acercade img {
     width: 300px;
     height: 300px;
-    margin-top: 30px; }
+    margin-top: 40px;
+    margin-bottom: 50px; }
 
 /*Contacto*/
 .Form {
@@ -159,7 +175,8 @@ header {
     width: 300px;
     justify-content: center;
     background-color: white;
-    margin: 40px 0px; }
+    margin-top: 80px;
+    height: 400px; }
   .Form h1 {
     display: flex;
     justify-content: center;
@@ -171,7 +188,12 @@ header {
     justify-content: space-between;
     margin: 2px; }
   .Form iframe {
-    width: 60%; }
+    width: 60%;
+    margin: 80px 0px;
+    height: 400px; }
+
+.parteIzquierda {
+  height: fit-content; }
 
 footer {
   width: 100%;
@@ -183,10 +205,18 @@ footer {
     text-align: center;
     color: white;
     padding: 20px;
-    text-decoration: underline; }
+    text-decoration: underline;
+    /* transition: 0.5s;
+
+                &:hover{
+                        color: yellow;
+                } */ }
     footer .soporte a {
       color: white;
-      padding: 5px; }
+      padding: 5px;
+      transition: 0.2s; }
+      footer .soporte a:hover {
+        color: yellow; }
   footer .avisoLegal {
     display: flex;
     justify-content: center;
@@ -194,10 +224,14 @@ footer {
     text-align: center;
     color: white;
     padding: 20px;
-    text-decoration: underline; }
+    text-decoration: underline;
+    transition: 0.2s; }
     footer .avisoLegal a {
       color: white;
-      padding: 5px; }
+      padding: 5px;
+      transition: 0.2s; }
+      footer .avisoLegal a:hover {
+        color: yellow; }
   footer .redes {
     display: flex;
     flex-direction: center; }
